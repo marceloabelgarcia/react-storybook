@@ -1,0 +1,23 @@
+{
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "stylelint.validate": ["css", "less", "jsx", "html"],
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html,json,jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[js,jsx,scss,css,less,html]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Icon",
+    "dataIndex": "icon",
+    "key": "icon",
+    "type": "icon"
+  },
+  {
+    "title": "Name",
+    "dataIndex": "name",
+    "key": "name"
+  },
+  {
+    "title": "Version",
+    "dataIndex": "version",
+    "key": "version",
+    "type": "tags"
+  },
+  {
+    "title": "Link",
+    "key": "link",
+    "dataIndex": "link",
+    "type": "link"
+  }
+]
